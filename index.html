@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="it" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bertelli Serramenti | Infissi, Basculanti e Sicurezza a Milano</title>
+    <meta name="description" content="Leader a Milano e Sesto San Giovanni in Serramenti, Basculanti, Porte Blindate e Sicurezza Ajax. 25 anni di esperienza.">
+    
+    <!-- SEO & Meta Tags Avanzati -->
+    <meta name="keywords" content="Stefano Bertelli, bertelli serramenti, infissi, finestre sesto san giovanni, serramenti milano, porte blindate, sicurezza ajax, basculanti box, tapparelle, grate di sicurezza">
+    <meta name="author" content="Alessandro Bertelli">
+    <meta name="robots" content="index, follow">
+    <!-- Importante: Sostituisci con il tuo dominio finale se diverso -->
+    <link rel="canonical" href="https://bertelliserramenti.it/">
+    <link rel="icon" href="assets/images/favicon.ico">
+    
+    <!-- Open Graph / Social Media (Per condivisioni belle su WhatsApp/FB) -->
+    <meta property="og:type" content="business.business">
+    <meta property="og:title" content="Bertelli Serramenti | Infissi e Sicurezza a Milano">
+    <meta property="og:description" content="Serramenti, Basculanti, Porte Blindate e Sicurezza Ajax. 25 anni di esperienza a Sesto San Giovanni e Milano.">
+    <meta property="og:url" content="https://bertelliserramenti.it/">
+    <meta property="og:image" content="https://bertelliserramenti.it/assets/images/slide_01.jpg">
+    
+    <!-- Dati Strutturati JSON-LD per Local Business (Fondamentale per Google Maps/Local) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HomeAndConstructionBusiness",
+      "name": "Bertelli Serramenti",
+      "image": "https://bertelliserramenti.it/assets/images/bs-nb.png",
+      "url": "https://bertelliserramenti.it",
+      "telephone": "+393381281533",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Sesto San Giovanni",
+        "addressRegion": "MI",
+        "addressCountry": "IT"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 45.537820,
+        "longitude": 9.242970
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "08:00",
+        "closes": "19:00"
+      },
+      "priceRange": "$$",
+      "founder": {
+        "@type": "Person",
+        "name": "Stefano Bertelli"
+      }
+    }
+    </script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- IUBENDA COOKIE SOLUTION  -->
+    <script type="text/javascript">
+      var _iub = _iub || [];
+      _iub.csConfiguration = {"askConsentAtCookiePolicyUpdate":true,"countryDetection":true,"enableLgpd":true,"enableUspr":true,"floatingPreferencesButtonDisplay":"bottom-right","lgpdAppliesGlobally":false,"perPurposeConsent":true,"siteId":2581337,"whitelabel":false,"cookiePolicyId":85596960,"lang":"it", "banner":{ "acceptButtonCaptionColor":"#FFFFFF","acceptButtonColor":"#334757","acceptButtonDisplay":true,"backgroundColor":"#F4FBFF","closeButtonDisplay":false,"customizeButtonCaptionColor":"#14213D","customizeButtonColor":"#DCE2E6","customizeButtonDisplay":true,"explicitWithdrawal":true,"fontSizeBody":"12px","listPurposes":true,"logo":null,"position":"float-bottom-center","rejectButtonCaptionColor":"#FFFFFF","rejectButtonColor":"#334757","rejectButtonDisplay":true,"showPurposesToggles":true,"theme":"winter-neutral","textColor":"#45423F" }};
+    </script>
+    <script type="text/javascript" src="//cdn.iubenda.com/cs/gpp/stub.js"></script>
+    <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                    },
+                    colors: {
+                        bertelli: {
+                            blue: '#002AFF', 
+                            dark: '#1e1e1e',
+                            light: '#f7f7f7',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .hero-bg {
+            /* Tenta di caricare la slide_01 locale, altrimenti usa Unsplash */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/slide_01.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        /* Fallback per background image via CSS se l'asset locale manca */
+        .hero-bg-fallback {
+             background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1503708928676-1cb796a0891e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1974&q=80');
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-700 antialiased">
+
+    <!-- TOP BAR (Il "Menu Sopra" richiesto) -->
+    <div class="bg-bertelli-blue text-white text-sm py-2 hidden md:block">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <!-- Contatti Sinistra -->
+            <div class="flex space-x-6">
+                <span class="flex items-center gap-2">
+                    <i class="fa-regular fa-clock"></i> Lun-Ven 08:00-19:00
+                </span>
+                <a href="tel:3381281533" class="flex items-center gap-2 hover:text-blue-200 transition">
+                    <i class="fa-solid fa-phone"></i> 338 128 1533
+                </a>
+                <a href="mailto:info@bertelliserramenti.it" class="flex items-center gap-2 hover:text-blue-200 transition">
+                    <i class="fa-solid fa-envelope"></i> info@bertelliserramenti.it
+                </a>
+            </div>
+            <!-- Social Destra -->
+            <div class="flex space-x-4">
+                <a href="https://g.page/r/CeeuRXLH5vVVEAE" target="_blank" class="hover:text-blue-200 transition"><i class="fa-brands fa-google"></i></a>
+                <!--<a href="https://www.linkedin.com/in/alessandro-bertelli-925273173/" target="_blank" class="hover:text-blue-200 transition"><i class="fa-brands fa-linkedin"></i></a>-->
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar Principale (Sticky) -->
+    <nav class="sticky top-0 z-50 bg-white shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="#" class="flex items-center gap-2">
+                <!-- Logo originale -->
+                <img src="assets/images/bs-nb.png" onerror="this.src='https://placehold.co/200x60?text=BERTELLI+SERRAMENTI'" alt="Bertelli Serramenti Logo" class="h-12 md:h-16">
+            </a>
+
+            <!-- Desktop Menu -->
+            <div class="hidden lg:flex space-x-6 font-medium text-sm uppercase tracking-wide items-center">
+                <a href="#serramenti" class="hover:text-bertelli-blue transition">Serramenti</a>
+                <a href="#basculanti" class="hover:text-bertelli-blue transition">Basculanti</a>
+                <a href="#sicurezza" class="hover:text-bertelli-blue transition">Sicurezza</a>
+                <a href="#chi-siamo" class="hover:text-bertelli-blue transition">Chi Siamo</a>
+                <a href="#contatti" class="bg-bertelli-blue text-white px-5 py-2 rounded-full hover:bg-blue-800 transition shadow-md">Richiedi Preventivo</a>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="lg:hidden text-2xl text-bertelli-dark" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t p-4 absolute w-full shadow-lg">
+            <a href="#serramenti" class="block py-3 border-b border-gray-100" onclick="toggleMenu()">Serramenti</a>
+            <a href="#basculanti" class="block py-3 border-b border-gray-100" onclick="toggleMenu()">Basculanti</a>
+            <a href="#sicurezza" class="block py-3 border-b border-gray-100" onclick="toggleMenu()">Sicurezza & Porte Blindate</a>
+            <a href="#contatti" class="block mt-4 text-center bg-bertelli-blue text-white py-3 rounded font-bold" onclick="toggleMenu()">PREVENTIVO GRATUITO</a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION: Focus Serramenti -->
+    <header class="relative h-[80vh] flex items-center hero-bg bg-gray-800" id="hero">
+        <div class="container mx-auto px-4 text-center text-white relative z-10">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight drop-shadow-md">
+                Rinnova la tua casa con<br>
+                <span class="text-blue-400">Serramenti di Qualità</span>
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 font-light max-w-3xl mx-auto drop-shadow-md">
+                Efficienza energetica, design Made in Italy e sicurezza totale.
+                Da oltre 25 anni a Sesto San Giovanni e Milano.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#contatti" class="bg-bertelli-blue hover:bg-white hover:text-bertelli-blue text-white px-8 py-4 rounded-full font-bold text-lg transition border-2 border-bertelli-blue shadow-lg">
+                    CHIEDI UN PREVENTIVO
+                </a>
+                <a href="#serramenti" class="bg-transparent hover:bg-white hover:text-gray-900 text-white px-8 py-4 rounded-full font-bold text-lg transition border-2 border-white shadow-lg backdrop-blur-sm">
+                    VEDI I NOSTRI PRODOTTI
+                </a>
+            </div>
+        </div>
+        
+        <!-- Script per gestire fallback immagine background -->
+        <script>
+            const hero = document.getElementById('hero');
+            const img = new Image();
+            img.src = 'assets/images/slide_01.jpg';
+            img.onerror = function() { hero.classList.add('hero-bg-fallback'); };
+        </script>
+    </header>
+
+    <!-- PRIORITÀ 1: SERRAMENTI -->
+    <section id="serramenti" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/2">
+                    <img src="assets/images/infissi_3.jpg" onerror="this.src='https://images.unsplash.com/photo-1503708928676-1cb796a0891e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'" alt="Serramenti e Infissi" class="rounded-lg shadow-xl w-full h-auto object-cover transform hover:scale-[1.02] transition duration-500">
+                </div>
+                <div class="md:w-1/2">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="bg-bertelli-blue text-white w-8 h-8 flex items-center justify-center rounded-full font-bold shadow">1</span>
+                        <h2 class="text-3xl font-bold text-gray-900">Serramenti & Vetrate</h2>
+                    </div>
+                    <p class="text-gray-600 mb-6 text-lg leading-relaxed">
+                        Il cuore della nostra attività. Installiamo serramenti certificati che garantiscono il massimo isolamento termico e acustico.
+                        Scegli tra PVC, Alluminio o Legno-Alluminio per valorizzare il tuo immobile e risparmiare in bolletta.
+                    </p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500"></i> Detrazione Fiscale (Ecobonus)</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500"></i> Made in Italy Certificato</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500"></i> Posa in opera qualificata</li>
+                    </ul>
+                    <a href="#contatti" class="text-bertelli-blue font-bold border-b-2 border-bertelli-blue hover:text-blue-800 transition">Richiedi consulenza serramenti <i class="fa-solid fa-arrow-right ml-1"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRIORITÀ 2: BASCULANTI -->
+    <section id="basculanti" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row-reverse items-center gap-12">
+                <div class="md:w-1/2">
+                    <img src="assets/images/bascula.jpeg" onerror="this.src='https://images.unsplash.com/photo-1595428774223-ef52624120d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'" alt="Basculanti Garage" class="rounded-lg shadow-xl w-full h-auto object-cover transform hover:scale-[1.02] transition duration-500">
+                </div>
+                <div class="md:w-1/2">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="bg-bertelli-blue text-white w-8 h-8 flex items-center justify-center rounded-full font-bold shadow">2</span>
+                        <h2 class="text-3xl font-bold text-gray-900">Basculanti & Garage</h2>
+                    </div>
+                    <p class="text-gray-600 mb-6 text-lg leading-relaxed">
+                        Proteggi il tuo box con le migliori soluzioni sul mercato.
+                        Non ci limitiamo all'installazione: offriamo servizi di automazione per basculanti esistenti e manutenzione dedicata.
+                    </p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500"></i> Baculanti automatiche e manuali</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500"></i> Sicurezza anti-effrazione</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500"></i> Verniciature personalizzate</li>
+                    </ul>
+                    <a href="#contatti" class="text-bertelli-blue font-bold border-b-2 border-bertelli-blue hover:text-blue-800 transition">Preventivo Garage <i class="fa-solid fa-arrow-right ml-1"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRIORITÀ 3: PORTE BLINDATE & AJAX -->
+    <section id="sicurezza" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <span class="text-bertelli-blue font-bold uppercase tracking-wider text-sm">Protezione Totale</span>
+                <h2 class="text-3xl md:text-4xl font-bold mt-2">Sicurezza Fisica & Elettronica</h2>
+                <p class="text-gray-500 mt-4 max-w-2xl mx-auto">Uniamo la solidità dell'acciaio all'intelligenza della tecnologia Ajax per offrirti una casa inespugnabile.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 items-stretch">
+                <!-- Card Porte Blindate -->
+                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100 flex flex-col hover:shadow-lg transition">
+                    <div class="text-4xl text-bertelli-blue mb-4"><i class="fa-solid fa-door-closed"></i></div>
+                    <h3 class="text-2xl font-bold mb-4">Porte Blindate</h3>
+                    <p class="text-gray-600 mb-6 flex-grow">
+                        La prima linea di difesa. Porte di Classe 3 e 4 antieffrazione, con pannelli personalizzabili per adattarsi all'estetica del condominio o della villa.
+                    </p>
+                    <ul class="space-y-2 mb-6 text-sm text-gray-500">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-shield-halved text-bertelli-blue"></i> Cilindro Europeo antibumping</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-shield-halved text-bertelli-blue"></i> Defender antitrapano</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-volume-xmark text-bertelli-blue"></i> Isolamento acustico </li>
+                    </ul>
+                    <img src="assets/images/service_04.jpg" onerror="this.src='https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'" class="rounded-lg h-48 w-full object-cover mb-4">
+                </div>
+
+                <!-- Card Ajax -->
+                <div class="bg-gray-900 text-white p-8 rounded-2xl flex flex-col relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 p-4 opacity-20 text-6xl group-hover:scale-110 transition duration-500"><i class="fa-solid fa-shield-cat"></i></div>
+                    <h3 class="text-2xl font-bold mb-2">Sicurezza <span class="text-blue-400">Ajax Systems</span></h3>
+                    <p class="text-gray-300 mb-6 flex-grow">
+                        L'evoluzione dell'antifurto. Un sistema wireless, elegante e infallibile che protegge la tua casa e dialoga con i tuoi serramenti.
+                                Foto-Verifica degli allarmi per esterno e interno. Tieni la tua casa sotto controllo direttamente dal tuo telefono. Installazione rapida e professionale.
+                    </p>
+                    
+                    <div class="grid grid-cols-2 gap-4 mb-6">
+                        <div class="bg-gray-800 p-3 rounded hover:bg-gray-700 transition">
+                            <i class="fa-solid fa-wifi text-blue-400 mb-2"></i>
+                            <div class="text-sm font-bold">100% Wireless</div>
+                        </div>
+                        <div class="bg-gray-800 p-3 rounded hover:bg-gray-700 transition">
+                            <i class="fa-solid fa-mobile-screen text-blue-400 mb-2"></i>
+                            <div class="text-sm font-bold">App Smartphone</div>
+                        </div>
+                        <div class="bg-gray-800 p-3 rounded hover:bg-gray-700 transition">
+                            <i class="fa-solid fa-camera text-blue-400 mb-2"></i>
+                            <div class="text-sm font-bold">Foto-Verifica</div>
+                        </div>
+                        <div class="bg-gray-800 p-3 rounded hover:bg-gray-700 transition">
+                            <i class="fa-solid fa-house-laptop text-blue-400 mb-2"></i>
+                            <div class="text-sm font-bold">Domotica</div>
+                        </div>
+                    </div>
+                    <a href="#contatti" class="bg-blue-600 hover:bg-blue-700 text-white text-center py-3 rounded-lg font-bold transition shadow-lg border border-blue-500">Richiedi Demo Ajax</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRIORITÀ 4 e 5: ALTRI PRODOTTI -->
+    <section class="py-16 bg-bertelli-blue text-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-8 text-center">Completano la tua casa</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="flex items-start gap-4 p-6 bg-blue-800/50 rounded-xl backdrop-blur-sm border border-blue-700/50 hover:bg-blue-800 transition">
+                    <div class="text-4xl text-blue-300"><i class="fa-solid fa-border-all"></i></div>
+                    <div>
+                        <h4 class="text-xl font-bold mb-2">Zanzariere</h4>
+                        <p class="text-blue-100 text-sm">Soluzioni su misura, plissettate o a rullo. Resistenti, estetiche e quasi invisibili per goderti l'aria senza insetti.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-4 p-6 bg-blue-800/50 rounded-xl backdrop-blur-sm border border-blue-700/50 hover:bg-blue-800 transition">
+                    <div class="text-4xl text-blue-300"><i class="fa-solid fa-bars"></i></div>
+                    <div>
+                        <h4 class="text-xl font-bold mb-2">Grate di Sicurezza</h4>
+                        <p class="text-blue-100 text-sm">Grate fisse, apribili o snodate certificate anti-intrusione. Un design moderno che protegge senza opprimere gli spazi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CHI SIAMO / SOCIAL PROOF - AGGIORNATA -->
+    <section id="chi-siamo" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            
+            <!-- Descrizione Aziendale -->
+            <div class="flex flex-col md:flex-row items-center gap-12 mb-20">
+                <div class="md:w-1/2">
+                    <span class="text-bertelli-blue font-bold uppercase tracking-wider text-sm">La nostra storia</span>
+                    <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-6">Esperienza e Qualità <br>Made in Italy</h2>
+                    <p class="text-gray-600 text-lg leading-relaxed mb-6">
+                        Da oltre <strong>32 anni</strong> proponiamo prodotti di alta qualità. Siamo leader a Milano e provincia nella fornitura di serramenti, infissi e porte blindate: soluzioni pensate per rendere più unica, sicura ed accogliente la tua casa.
+                    </p>
+                    <p class="text-gray-600 text-lg leading-relaxed mb-6">
+                        L'attenta selezione dei materiali, l'uso di tecnologie avanzate e la raffinatezza del design conferiscono ai nostri prodotti grande solidità. L'attenzione prestata sia in fase di progetto che nella messa in opera consente di ridurre notevolmente gli interventi di manutenzione.
+                    </p>
+                    <!-- Stats Grid -->
+                    <div class="grid grid-cols-2 gap-6 mt-8">
+                        <div class="border-l-4 border-bertelli-blue pl-4">
+                            <div class="text-3xl font-bold text-bertelli-blue">30+</div>
+                            <div class="text-sm text-gray-500">Anni di Esperienza</div>
+                        </div>
+                        <div class="border-l-4 border-bertelli-blue pl-4">
+                            <div class="text-3xl font-bold text-bertelli-blue">600+</div>
+                            <div class="text-sm text-gray-500">Finestre Posate/Anno</div>
+                        </div>
+                         <div class="border-l-4 border-bertelli-blue pl-4">
+                            <div class="text-3xl font-bold text-bertelli-blue">240+</div>
+                            <div class="text-sm text-gray-500">Clienti Soddisfatti</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="assets/images/attestato.png" onerror="this.src='https://images.unsplash.com/photo-1556912173-3db996e1615d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'" alt="Chi Siamo Bertelli Serramenti" class="rounded-lg shadow-xl w-full h-auto object-cover">
+                </div>
+            </div>
+
+            <!-- Recensioni (Spostate sotto) -->
+            <div class="text-center mb-12 border-t pt-12 border-gray-200">
+                <h2 class="text-3xl font-bold mb-4">Cosa dicono di noi</h2>
+                <div class="flex justify-center items-center gap-2 text-yellow-500 mb-2">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Recensione 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-bertelli-blue hover:shadow-md transition">
+                    <div class="mb-4 text-bertelli-blue opacity-20"><i class="fa-solid fa-quote-left text-3xl"></i></div>
+                    <p class="italic text-gray-600 mb-4">"Un professionista del serramento sopra le righe!! Capace, preparato, onesto."</p>
+                    <div class="font-bold text-sm text-gray-900">- Guido</div>
+                </div>
+                <!-- Recensione 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-bertelli-blue hover:shadow-md transition">
+                    <div class="mb-4 text-bertelli-blue opacity-20"><i class="fa-solid fa-quote-left text-3xl"></i></div>
+                    <p class="italic text-gray-600 mb-4">"Lavoro perfetto, ottimo materiale. Se vi da un consiglio seguitelo: è nel vostro interesse."</p>
+                    <div class="font-bold text-sm text-gray-900">- Marco</div>
+                </div>
+                <!-- Recensione 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-bertelli-blue hover:shadow-md transition">
+                    <div class="mb-4 text-bertelli-blue opacity-20"><i class="fa-solid fa-quote-left text-3xl"></i></div>
+                    <p class="italic text-gray-600 mb-4">"Professionalità, serietà e disponibilità. Qualità di altissimo livello."</p>
+                    <div class="font-bold text-sm text-gray-900">- Lorenzo</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTATTI -->
+    <section id="contatti" class="py-20 bg-white">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <div class="bg-white shadow-2xl rounded-xl overflow-hidden flex flex-col md:flex-row">
+                <!-- Info -->
+                <div class="bg-bertelli-dark text-white p-10 md:w-2/5 relative">
+                    <div class="absolute top-0 right-0 p-4 opacity-5"><i class="fa-solid fa-envelope-open-text text-9xl"></i></div>
+                    <h3 class="text-2xl font-bold mb-6 relative z-10">Contattaci</h3>
+                    <p class="text-gray-400 mb-8 text-sm relative z-10">Richiedi un sopralluogo gratuito per i tuoi nuovi serramenti o per mettere in sicurezza la casa.</p>
+                    
+                    <div class="space-y-6 relative z-10">
+                        <a href="tel:3381281533" class="flex items-center gap-4 hover:text-blue-400 transition group">
+                            <div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-blue-600 transition"><i class="fa-solid fa-phone"></i></div>
+                            <span class="font-bold">338 128 1533</span>
+                        </a>
+                        <a href="mailto:info@bertelliserramenti.it" class="flex items-center gap-4 hover:text-blue-400 transition group">
+                            <div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-blue-600 transition"><i class="fa-solid fa-envelope"></i></div>
+                            <span class="text-sm">info@bertelliserramenti.it</span>
+                        </a>
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center"><i class="fa-solid fa-location-dot"></i></div>
+                            <span class="text-sm">Operiamo a principalmente nel Nord <br>e paesi confinanti all'Italia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form -->
+                <div class="p-10 md:w-3/5 bg-gray-50">
+                    <form action="https://formspree.io/f/maqjzvkb" method="POST" class="space-y-4">
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-xs font-bold text-gray-500 uppercase mb-1">Nome</label>
+                                <input type="text" name="nome" required class="w-full p-3 border border-gray-300 rounded bg-white focus:border-bertelli-blue focus:ring-1 focus:ring-bertelli-blue outline-none transition">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold text-gray-500 uppercase mb-1">Telefono</label>
+                                <input type="tel" name="telefono" required class="w-full p-3 border border-gray-300 rounded bg-white focus:border-bertelli-blue focus:ring-1 focus:ring-bertelli-blue outline-none transition">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-gray-500 uppercase mb-1">Email</label>
+                            <input type="email" name="email" required class="w-full p-3 border border-gray-300 rounded bg-white focus:border-bertelli-blue focus:ring-1 focus:ring-bertelli-blue outline-none transition">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-gray-500 uppercase mb-1">Interesse</label>
+                            <select name="interesse" class="w-full p-3 border border-gray-300 rounded bg-white focus:border-bertelli-blue focus:ring-1 focus:ring-bertelli-blue outline-none transition">
+                                <option value="Serramenti">Preventivo Serramenti</option>
+                                <option value="Basculanti">Basculante / Garage</option>
+                                <option value="Sicurezza">Porte Blindate / Ajax</option>
+                                <option value="Altro">Altro (Zanzariere, Grate...)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-gray-500 uppercase mb-1">Messaggio</label>
+                            <textarea name="messaggio" rows="3" placeholder="Descrivi brevemente la tua richiesta..." class="w-full p-3 border border-gray-300 rounded bg-white focus:border-bertelli-blue focus:ring-1 focus:ring-bertelli-blue outline-none transition"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full bg-bertelli-blue text-white font-bold py-3 rounded hover:bg-blue-800 transition shadow-lg transform active:scale-95">
+                            INVIA RICHIESTA
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-500 py-8 text-center text-sm">
+        <p class="mb-2">© 2026 Bertelli Serramenti - P.IVA 04372520967</p>
+        <a href="https://www.iubenda.com/privacy-policy/85596960" target="_blank" class="hover:text-white mx-2">Privacy Policy</a> | 
+        <a href="#" class="hover:text-white mx-2">Cookie Policy</a>
+    </footer>
+
+    <!-- Whatsapp Float -->
+    <a href="https://wa.me/393381281533" class="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition z-50 animate-bounce flex items-center justify-center w-14 h-14">
+        <i class="fa-brands fa-whatsapp text-3xl"></i>
+    </a>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>
